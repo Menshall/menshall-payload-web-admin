@@ -1030,6 +1030,8 @@ export interface Schedule {
   nextButtonText?: string | null;
   prevButtonText?: string | null;
   submitButtonText?: string | null;
+  master?: string | Media | null;
+  service?: string | Media | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }

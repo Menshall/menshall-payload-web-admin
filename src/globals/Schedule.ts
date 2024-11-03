@@ -66,5 +66,17 @@ export const Schedule: GlobalConfig = {
       type: "text",
       label: "Submit Button Text",
     },
+    {
+      label: 'Master Flow Image',
+      name: 'master',
+      type: 'upload',
+      relationTo: 'media',
+    },
+    {
+      label: 'Date Flow Image',
+      name: 'service',
+      type: 'upload',
+      relationTo: 'media',
+    },
   ],
 };
