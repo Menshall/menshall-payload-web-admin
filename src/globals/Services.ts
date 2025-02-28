@@ -1,6 +1,6 @@
 import type { GlobalConfig } from "payload";
 
-import newLink from "@/fields/customSelect/field";
+
 
 export const Services: GlobalConfig = {
   slug: "services",

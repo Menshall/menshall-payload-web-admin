@@ -1,6 +1,6 @@
 import type { Field } from "payload";
 
-import newLink from "@/fields/customSelect/field";
+
 
 export const socials: Field = {
   name: "socials",

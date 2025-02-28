@@ -1,7 +1,7 @@
 import type { Field } from "payload";
 
 import richText from "@/fields/richText";
-import newLink from "@/fields/customSelect/field";
+
 
 export const banner: Field = {
   name: "banner",
