@@ -1,5 +1,4 @@
 import type { GlobalConfig } from "payload";
-import { barbersFetchButton } from "@/fields/BarbersFetchButton";
 import { socials } from "@/fields/socials";
 
 export const AcademyTeachers: GlobalConfig = {

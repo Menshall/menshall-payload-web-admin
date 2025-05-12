@@ -976,18 +976,8 @@ export interface Footer {
  */
 export interface Barbers {
   id: string;
-  barbersFetchButton?: {};
   title: string;
   buttonText: string;
-  barbers?:
-    | {
-        image?: string | Media | null;
-        location?: string | null;
-        id?: string | null;
-        name?: string | null;
-        specialization?: string | null;
-      }[]
-    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
